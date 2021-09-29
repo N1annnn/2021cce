@@ -14,16 +14,24 @@ int main()
 }
 ```
 # 第02週
+#1
 ```C
 #include <stdio.h>
 int main()
 {
-    printf("Hello World\n");
-    printf("Hello%dWorld\n",300);
-    printf("%d %d    %d", 300 ,200, 100);
+    printf( "Hello World\n");
 }
 ```
-
+#2
+```C
+#include <stdio.h>
+int main()
+{
+    printf("Hello World!\n");
+    printf("Hello World!\n");
+}
+```
+#3
 ```C
 #include <stdio.h>
 int main()
@@ -33,7 +41,26 @@ int main()
     printf("%d", a+b );
 }
 ```
-
+#4
+```C
+#include <stdio.h>
+int main()
+{
+    printf("Hello World!\n");
+    printf( "%d" , 300 );
+}
+```
+#5
+```C
+#include <stdio.h>
+int main()
+{
+    printf("Hello World\n");
+    printf("Hello%dWorld\n",300);
+    printf("%d %d    %d", 300 ,200, 100);
+}
+```
+#6
 ```C
 #include <stdio.h>
 int main()
