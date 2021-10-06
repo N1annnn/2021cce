@@ -5,7 +5,7 @@ README.md是用MarkDown語法
 
 單#為大標雙#為小標
 
-# 第01週
+# 第02週
 ```C
 #include <stdio.h>
 int main()
@@ -13,7 +13,7 @@ int main()
     printf( "Hello World\n");
 }
 ```
-# 第02週
+# 第03週
 #1
 ```C
 #include <stdio.h>
@@ -73,7 +73,7 @@ int main()
 }
 ```
 
-# 第03週
+# 第04週
 
 #1
 ```C
