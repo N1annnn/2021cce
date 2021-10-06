@@ -72,3 +72,67 @@ int main()
     printf("a的值是:%d\n", a);
 }
 ```
+
+# 第03週
+
+#1
+```C
+#include <stdio.h>
+int main()
+{
+    int a=123, b=10;
+    printf("%d\n",a/b);
+    printf("%d\n",a%b);
+}
+```
+
+#2
+```C
+#include <stdio.h>
+int main()
+{
+    int a=123, b=10;
+    int ans=a/b;
+    float ans2=123.0/10.0;
+    printf("整數除整數%d\n",ans);
+    printf("float的除法%f\n",ans2);
+}
+```
+
+#3
+```C
+#include <stdio.h>
+int main()
+{
+    float pi=3.14159265358979;
+    double pii=3.14159265358979;
+    printf("%f\n",pi);
+    printf("%f\n",pii);
+
+    printf("%.8f\n", pii);
+    printf("%.12f\n",pii);
+    printf("%9.5f\n",pii);
+}
+```
+
+#4
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n );
+	
+	if (n>=90)
+	printf("A+");
+	else if (n>=80)
+	printf("A");
+	else if (n>=70)
+	printf("B");
+	else if (n>=60)
+	printf("C");
+	else
+	printf("D");
+}
+```
+
